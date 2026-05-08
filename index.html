@@ -1,0 +1,269 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Refer &amp; Earn | Cladd</title>
+  <meta name="description" content="Share Cladd with people who have taste. Get paid every time they buy. No limits, no expiry.">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="img.jpg" type="image/x-icon">
+</head>
+<body>
+
+<!-- ── Header ─────────────────────────────────────────────── -->
+<header>
+  <button id="hamburger" onclick="toggleSidebar()">
+    <span></span><span></span><span></span>
+  </button>
+
+  <aside id="sidebar" class="closed">
+    <ul>
+      <a href="#"><li><div class="img_div"><img src="all.jpg" alt="Power Bank Pouches"></div>Power Bank Pouches</li></a>
+      <a href="#"><li><div class="img_div"><img src="t1.jpg" alt="Phone Pouches"></div>Phone Pouches</li></a>
+      <a href="#"><li><div class="img_div"><img src="ank.jpg" alt="Accessories"></div>Accessories</li></a>
+      <a href="#"><li><div class="img_div"><img src="itel.jpg" alt="Coupons"></div>Coupons</li></a>
+      <a href="#"><li><div class="img_div"><img src="haw.jpg" alt="Refer & Earn"></div>Refer &amp; Earn</li></a>
+    </ul>
+    <div class="centers">
+      <ul>
+        <a href="return_center.html"><li>Return Center</li></a>
+        <a href="help_center_page.html"><li>Help Center</li></a>
+        <a href="device_help.html"><li>Can't find my model</li></a>
+      </ul>
+    </div>
+    <div class="profile_link">
+      <a href="how_it_works_page.html">
+        <div class="img_div"><img src="itel.jpg" alt="Profile"></div>
+        <h1>Username / Shop</h1>
+      </a>
+    </div>
+  </aside>
+
+<div id="google_translate_element"></div>
+
+  <div class="right">
+    <div class="icon_links">
+      <a href="favorites_page.html" aria-label="Favorites"><i class="fa-regular fa-heart"></i></a>
+      <a href="shopping_cart_page.html" aria-label="Cart"><i class="fa-solid fa-bag-shopping"></i></a>
+    </div>
+    <a href="home_page.html" class="brand-lockup">
+      <img src="img.jpg" alt="Cladd logo" class="brand-logo">
+      <h1>Cladd</h1>
+    </a>
+  </div>
+
+  <div class="search_form_container">
+    <form method="post">
+      <input type="text" placeholder="Search themes, products,...">
+      <button type="submit"><i class="fas fa-search"></i></button>
+    </form>
+  </div>
+</header>
+
+
+<main>
+
+  <!-- ── Hero ───────────────────────────────────────────── -->
+  <section class="first-section">
+    <div class="affiliate-hero">
+      <p class="eyebrow">Refer &amp; Earn</p>
+      <h1>Your taste pays.<br><span>Literally.</span></h1>
+      <p>You already know people who'd love Cladd.
+        Share your link. When they buy,
+        you earn — no caps, no expiry, no catch.
+        Just cash for pointing people toward
+        art that actually looks like them.
+      </p>
+      <button onclick="document.getElementById('referral-section').scrollIntoView({behavior:'smooth'})">
+        Generate My Referral Link
+      </button>
+    </div>
+    <div class="affiliate-hero-img">
+      <img src="img.jpg" alt="Refer and Earn">
+    </div>
+  </section>
+
+
+  <!-- ── Earnings Card ──────────────────────────────────── -->
+  <section class="second-section">
+    <p class="eyebrow">The deal</p>
+    <div class="earnings-card">
+      <div class="earnings-amount">$2</div>
+      <p>earned every time someone you refer<br>
+        makes a purchase above <strong>$20</strong>.</p>
+      <button onclick="document.getElementById('referral-section').scrollIntoView({behavior:'smooth'})">
+        Get My Link
+      </button>
+    </div>
+  </section>
+
+
+  <!-- ── How It Works ───────────────────────────────────── -->
+  <section class="third-section" id="referral-section">
+    <p class="eyebrow">Simple as it gets</p>
+    <h1>How It Works</h1>
+
+    <div class="steps-container">
+
+      <div class="step">
+        <div class="step-icon"><i class="fas fa-link"></i></div>
+        <h3>01 — Get Your Link</h3>
+        <p>Sign up or log in and generate your unique referral link from your account dashboard. Takes seconds.</p>
+      </div>
+
+      <div class="step">
+        <div class="step-icon"><i class="fas fa-share-alt"></i></div>
+        <h3>02 — Share It</h3>
+        <p>Send it anywhere — WhatsApp, Instagram, a text message. Wherever the people with taste hang out.</p>
+      </div>
+
+      <div class="step">
+        <div class="step-icon"><i class="fas fa-bag-shopping"></i></div>
+        <h3>03 — They Buy</h3>
+        <p>When someone clicks your link and buys above $20, the sale is tracked automatically. Nothing to do on your end.</p>
+      </div>
+
+      <div class="step">
+        <div class="step-icon"><i class="fas fa-wallet"></i></div>
+        <h3>04 — You Get Paid</h3>
+        <p>$2 lands in your Cladd wallet. Stack it and withdraw anytime through your preferred method.</p>
+      </div>
+
+    </div>
+
+    <!-- Withdrawal Methods -->
+    <div class="withdrawal-section">
+      <h3>Withdrawal Methods</h3>
+      <p>Withdraw your earnings through any of the following:</p>
+      <ul>
+        <li><i class="fas fa-university"></i> Wire Transfer</li>
+        <li><i class="fas fa-money-bill-wave"></i> Payoneer</li>
+        <li><i class="fab fa-paypal"></i> PayPal</li>
+        <li><i class="fas fa-credit-card"></i> Grey</li>
+      </ul>
+    </div>
+
+  </section>
+
+</main>
+
+
+<!-- ── Footer ─────────────────────────────────────────────── -->
+<footer class="footer">
+  <div class="footer-container">
+
+    <div class="footer-column">
+      <h3>Shop</h3>
+      <ul>
+        <li><a href="shop_haven.html">Power Bank Pouches</a></li>
+        <li><a href="shop_haven.html">Stickers</a></li>
+        <li><a href="shop_haven.html">Phone Pouches</a></li>
+        <li><a href="shop_haven.html">Tablet Pouches</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h3>Sell</h3>
+      <ul>
+        <li><a href="landing_page.html">Become an Artist</a></li>
+        <li><a href="design_tips.html">Design Tips</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h3>About</h3>
+      <ul>
+        <li><a href="about_page.html">Our Story</a></li>
+        <li><a href="affiliate_page.html">Refer &amp; Earn</a></li>
+        <li><a href="home_page.html">Careers</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h3>Help</h3>
+      <ul>
+        <li><a href="help_center_page.html">Help Center</a></li>
+        <li><a href="contact_page.html">Contact Us</a></li>
+        <li><a href="legal.html">Privacy Policy</a></li>
+        <li><a href="legal.html">User Agreements</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h3 class="footer-title">Socials</h3>
+      <ul class="social-links">
+        <li><a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="#" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a></li>
+        <li><a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a></li>
+        <li><a href="#" aria-label="Twitter/X"><i class="fab fa-x-twitter"></i></a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="subscribe_div">
+    <h2>Newsletter &amp; Special Offers</h2>
+    <form method="post">
+      <input type="email" placeholder="Enter your email address">
+      <button type="submit">Subscribe</button>
+    </form>
+  </div>
+
+  <div class="copyright">
+    &copy; 2025 Cladd. All rights reserved. Built to protect.
+  </div>
+</footer>
+
+
+<script>
+  function toggleSidebar() {
+    document.getElementById('sidebar').classList.toggle('active');
+    document.getElementById('hamburger').classList.toggle('close');
+  }
+
+  document.addEventListener('click', function (e) {
+    const sidebar   = document.getElementById('sidebar');
+    const hamburger = document.getElementById('hamburger');
+    if (sidebar.classList.contains('active') &&
+        !sidebar.contains(e.target) &&
+        !hamburger.contains(e.target)) {
+      sidebar.classList.remove('active');
+      hamburger.classList.remove('close');
+    }
+  });
+  
+  // GOOGLE TRANSLATOR
+  function addGoogleTranslateWidget() {
+  
+  const container = document.createElement('div');
+  container.id = 'google_translate_element';
+  container.style.position = 'fixed';
+  container.style.top = '10px';
+  container.style.right = '10px';
+  container.style.zIndex = '9999';
+  document.body.appendChild(container);
+
+  // Load Google's translate script
+  const script = document.createElement('script');
+  script.src = '//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
+  document.head.appendChild(script);
+
+  // Init function Google will call
+  window.googleTranslateElementInit = function() {
+    new google.translate.TranslateElement({
+      pageLanguage: 'auto', // detects original language
+      includedLanguages: '', // leave empty for all languages
+      layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+      autoDisplay: false
+    }, 'google_translate_element');
+  };
+}
+
+addGoogleTranslateWidget();
+</script>
+
+</body>
+</html>
