@@ -1,19 +1,17 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Refer &amp; Earn | Cladd</title>
-  <meta name="description" content="Share Cladd with people who have taste. Get paid every time they buy. No limits, no expiry.">
+  <title>How It Works | Cladd</title>
+  <meta name="description" content="Set up your Cladd shop in three steps. Upload your designs, sell to the world, and get paid.">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="img.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="how_it_works_page.css">
+  <link rel="icon" href="img.png" type="image/x-icon">
 </head>
 <body>
 
-<!-- ── Header ─────────────────────────────────────────────── -->
 <header>
   <button id="hamburger" onclick="toggleSidebar()">
     <span></span><span></span><span></span>
@@ -36,13 +34,11 @@
     </div>
     <div class="profile_link">
       <a href="how_it_works_page.html">
-        <div class="img_div"><img src="itel.jpg" alt="Profile"></div>
+        <div class="img_div"><img src="artist.jpg" alt="Profile"></div>
         <h1>Username / Shop</h1>
       </a>
     </div>
   </aside>
-
-<div id="google_translate_element"></div>
 
   <div class="right">
     <div class="icon_links">
@@ -50,7 +46,7 @@
       <a href="shopping_cart_page.html" aria-label="Cart"><i class="fa-solid fa-bag-shopping"></i></a>
     </div>
     <a href="home_page.html" class="brand-lockup">
-      <img src="img.jpg" alt="Cladd logo" class="brand-logo">
+      <img src="img.png" alt="Cladd logo" class="brand-logo">
       <h1>Cladd</h1>
     </a>
   </div>
@@ -64,97 +60,178 @@
 </header>
 
 
-<main>
-
-  <!-- ── Hero ───────────────────────────────────────────── -->
-  <section class="first-section">
-    <div class="affiliate-hero">
-      <p class="eyebrow">Refer &amp; Earn</p>
-      <h1>Your taste pays.<br><span>Literally.</span></h1>
-      <p>You already know people who'd love Cladd.
-        Share your link. When they buy,
-        you earn — no caps, no expiry, no catch.
-        Just cash for pointing people toward
-        art that actually looks like them.
-      </p>
-      <button onclick="document.getElementById('referral-section').scrollIntoView({behavior:'smooth'})">
-        Generate My Referral Link
-      </button>
-    </div>
-    <div class="affiliate-hero-img">
-      <img src="img.jpg" alt="Refer and Earn">
-    </div>
-  </section>
+<!-- Hero -->
+<section class="hiw-hero">
+  <p class="eyebrow">For independent artists</p>
+  <h1>Your art. The world's carry.</h1>
+  <p>Set up your Cladd shop in three steps. Upload your designs, sell to the world, and get paid. No inventory. No shipping. Just you and your art.</p>
+  <a href="index.html"><button class="hero-btn">Start Selling Free</button></a>
+</section>
 
 
-  <!-- ── Earnings Card ──────────────────────────────────── -->
-  <section class="second-section">
-    <p class="eyebrow">The deal</p>
-    <div class="earnings-card">
-      <div class="earnings-amount">$2</div>
-      <p>earned every time someone you refer<br>
-        makes a purchase above <strong>$20</strong>.</p>
-      <button onclick="document.getElementById('referral-section').scrollIntoView({behavior:'smooth'})">
-        Get My Link
-      </button>
-    </div>
-  </section>
+<!-- Step 1 -->
+<section class="step-section step-light">
+  <div class="step-badge">
+    <span class="step-num">01</span>
+    <span class="step-label">First</span>
+  </div>
+  <div class="step-content">
+    <p class="eyebrow">Create</p>
+    <h2>Build Your Products</h2>
+    <div class="step-blocks">
 
-
-  <!-- ── How It Works ───────────────────────────────────── -->
-  <section class="third-section" id="referral-section">
-    <p class="eyebrow">Simple as it gets</p>
-    <h1>How It Works</h1>
-
-    <div class="steps-container">
-
-      <div class="step">
-        <div class="step-icon"><i class="fas fa-link"></i></div>
-        <h3>01 — Get Your Link</h3>
-        <p>Sign up or log in and generate your unique referral link from your account dashboard. Takes seconds.</p>
+      <div class="step-block">
+        <div class="step-icon" style="background:#eff6ff; color:#1d4ed8;">
+          <i class="fas fa-grip-horizontal"></i>
+        </div>
+        <div>
+          <h3>Choose Your Product</h3>
+          <p>Browse Cladd's product range and select the canvas for your art — power bank pouches, phone pouches, stickers, and more.</p>
+        </div>
       </div>
 
-      <div class="step">
-        <div class="step-icon"><i class="fas fa-share-alt"></i></div>
-        <h3>02 — Share It</h3>
-        <p>Send it anywhere — WhatsApp, Instagram, a text message. Wherever the people with taste hang out.</p>
+      <div class="step-block">
+        <div class="step-icon" style="background:#f3e8ff; color:#6b21a8;">
+          <i class="fas fa-upload"></i>
+        </div>
+        <div>
+          <h3>Upload Your Designs</h3>
+          <p>Upload your original artwork. Accepted: PNG, JPG, SVG at 300 DPI minimum. You need at least 3 designs for your shop to go live.</p>
+          <a href="design_tips.html" class="step-link">Read the Design Tips guide</a>
+        </div>
       </div>
 
-      <div class="step">
-        <div class="step-icon"><i class="fas fa-bag-shopping"></i></div>
-        <h3>03 — They Buy</h3>
-        <p>When someone clicks your link and buys above $20, the sale is tracked automatically. Nothing to do on your end.</p>
-      </div>
-
-      <div class="step">
-        <div class="step-icon"><i class="fas fa-wallet"></i></div>
-        <h3>04 — You Get Paid</h3>
-        <p>$2 lands in your Cladd wallet. Stack it and withdraw anytime through your preferred method.</p>
+      <div class="step-block">
+        <div class="step-icon" style="background:#ecfdf5; color:#065f46;">
+          <i class="fas fa-tag"></i>
+        </div>
+        <div>
+          <h3>Set Your Prices</h3>
+          <p>You control your selling price. Cladd deducts a platform fee — everything above it is your royalty. Price your work like the art it is.</p>
+        </div>
       </div>
 
     </div>
+  </div>
+</section>
 
-    <!-- Withdrawal Methods -->
-    <div class="withdrawal-section">
-      <h3>Withdrawal Methods</h3>
-      <p>Withdraw your earnings through any of the following:</p>
-      <ul>
-        <li><i class="fas fa-university"></i> Wire Transfer</li>
-        <li><i class="fas fa-money-bill-wave"></i> Payoneer</li>
-        <li><i class="fab fa-paypal"></i> PayPal</li>
-        <li><i class="fas fa-credit-card"></i> Grey</li>
-      </ul>
+
+<!-- Step 2 -->
+<section class="step-section step-gradient">
+  <div class="step-badge step-badge-light">
+    <span class="step-num">02</span>
+    <span class="step-label">Then</span>
+  </div>
+  <div class="step-content">
+    <p class="eyebrow">Sell</p>
+    <h2>Sell Art. Get Paid.</h2>
+    <div class="step-blocks">
+
+      <div class="step-block">
+        <div class="step-icon" style="background:#fff7ed; color:#c2410c;">
+          <i class="fas fa-store"></i>
+        </div>
+        <div>
+          <h3>We Handle Everything</h3>
+          <p>When a customer orders your design, Cladd produces, packages, and ships it directly to them. You do nothing except create.</p>
+        </div>
+      </div>
+
+      <div class="step-block">
+        <div class="step-icon" style="background:#fef3c7; color:#92400e;">
+          <i class="fas fa-percent"></i>
+        </div>
+        <div>
+          <h3>Earn Royalties</h3>
+          <p>Every sale earns you a royalty. Track everything in your dashboard in real time.</p>
+        </div>
+      </div>
+
+      <div class="step-block">
+        <div class="step-icon" style="background:#eff6ff; color:#1d4ed8;">
+          <i class="fas fa-wallet"></i>
+        </div>
+        <div>
+          <h3>Withdraw Anytime</h3>
+          <p>Earnings accumulate in your Cladd wallet. Withdraw via Bank Transfer, PayPal, Payoneer, or Grey once you hit the minimum threshold.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- Step 3 -->
+<section class="step-section step-light">
+  <div class="step-badge">
+    <span class="step-num">03</span>
+    <span class="step-label">Finally</span>
+  </div>
+  <div class="step-content">
+    <p class="eyebrow">Verified</p>
+    <h2>Your Account Tier</h2>
+    <div class="step-blocks">
+
+      <div class="step-block">
+        <div class="step-icon" style="background:#f0fdf4; color:#14532d;">
+          <i class="fas fa-shield-alt"></i>
+        </div>
+        <div>
+          <h3>Verification</h3>
+          <p>After you complete setup, your account is reviewed. Verification takes <strong>3 to 5 business days.</strong> You will receive a confirmation email once done.</p>
+        </div>
+      </div>
+
+      <div class="step-block">
+        <div class="step-icon" style="background:#f3e8ff; color:#6b21a8;">
+          <i class="fas fa-layer-group"></i>
+        </div>
+        <div>
+          <h3>Basic or Premium</h3>
+          <p>Your account is classified after review. Basic is free to start. Premium unlocks homepage placement, priority review, and dedicated support.</p>
+          <a href="landing_page.html" class="step-link">Compare tiers</a>
+        </div>
+      </div>
+
     </div>
 
-  </section>
+    <div class="step-cta">
+      <h3>Now you are all set.</h3>
+      <p>Start uploading your best work and let the world discover your art.</p>
+      <a href="index.html"><button class="cta-btn">Add New Work</button></a>
+    </div>
 
-</main>
+  </div>
+</section>
 
 
-<!-- ── Footer ─────────────────────────────────────────────── -->
+<!-- Trust Bar -->
+<section class="trust-bar">
+  <div class="trust-grid">
+    <div class="trust-item">
+      <img src="world.png" alt="Worldwide Shipping">
+      <p>Worldwide Shipping</p>
+    </div>
+    <div class="trust-item">
+      <img src="limt.png" alt="Limited Warranty">
+      <p>Limited Warranty</p>
+    </div>
+    <div class="trust-item">
+      <img src="secured.png" alt="Secured Payments">
+      <p>Secured Payments</p>
+    </div>
+    <div class="trust-item">
+      <img src="local.png" alt="Local Support">
+      <p>Local Support</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- Footer -->
 <footer class="footer">
   <div class="footer-container">
-
     <div class="footer-column">
       <h3>Shop</h3>
       <ul>
@@ -164,7 +241,6 @@
         <li><a href="shop_haven.html">Tablet Pouches</a></li>
       </ul>
     </div>
-
     <div class="footer-column">
       <h3>Sell</h3>
       <ul>
@@ -172,7 +248,6 @@
         <li><a href="design_tips.html">Design Tips</a></li>
       </ul>
     </div>
-
     <div class="footer-column">
       <h3>About</h3>
       <ul>
@@ -181,7 +256,6 @@
         <li><a href="home_page.html">Careers</a></li>
       </ul>
     </div>
-
     <div class="footer-column">
       <h3>Help</h3>
       <ul>
@@ -191,9 +265,8 @@
         <li><a href="legal.html">User Agreements</a></li>
       </ul>
     </div>
-
     <div class="footer-column">
-      <h3 class="footer-title">Socials</h3>
+      <h3>Socials</h3>
       <ul class="social-links">
         <li><a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
         <li><a href="#" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a></li>
@@ -201,9 +274,7 @@
         <li><a href="#" aria-label="Twitter/X"><i class="fab fa-x-twitter"></i></a></li>
       </ul>
     </div>
-
   </div>
-
   <div class="subscribe_div">
     <h2>Newsletter &amp; Special Offers</h2>
     <form method="post">
@@ -211,12 +282,8 @@
       <button type="submit">Subscribe</button>
     </form>
   </div>
-
-  <div class="copyright">
-    &copy; 2025 Cladd. All rights reserved. Built to protect.
-  </div>
+  <div class="copyright">&copy; 2025 Cladd. All rights reserved. Built to protect.</div>
 </footer>
-
 
 <script>
   function toggleSidebar() {
@@ -225,8 +292,8 @@
   }
 
   document.addEventListener('click', function (e) {
-    const sidebar   = document.getElementById('sidebar');
-    const hamburger = document.getElementById('hamburger');
+    var sidebar   = document.getElementById('sidebar');
+    var hamburger = document.getElementById('hamburger');
     if (sidebar.classList.contains('active') &&
         !sidebar.contains(e.target) &&
         !hamburger.contains(e.target)) {
@@ -234,35 +301,6 @@
       hamburger.classList.remove('close');
     }
   });
-  
-  // GOOGLE TRANSLATOR
-  function addGoogleTranslateWidget() {
-  
-  const container = document.createElement('div');
-  container.id = 'google_translate_element';
-  container.style.position = 'fixed';
-  container.style.top = '10px';
-  container.style.right = '10px';
-  container.style.zIndex = '9999';
-  document.body.appendChild(container);
-
-  // Load Google's translate script
-  const script = document.createElement('script');
-  script.src = '//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
-  document.head.appendChild(script);
-
-  // Init function Google will call
-  window.googleTranslateElementInit = function() {
-    new google.translate.TranslateElement({
-      pageLanguage: 'auto', // detects original language
-      includedLanguages: '', // leave empty for all languages
-      layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
-      autoDisplay: false
-    }, 'google_translate_element');
-  };
-}
-
-addGoogleTranslateWidget();
 </script>
 
 </body>
